@@ -44,3 +44,15 @@
   clip: rect(0,0,0,0);
   overflow: hidden;
 }
+
+// увеличенный шрифт при большом разрешении
+@mixin dynamicText($minSizePercent, $maxSize, $minSize, $minWidthPx, $maxWidth, $minWidth) {
+  // $minSizePercent - минимальное значение шрифта в процентах
+  // $maxSize - максимальный размер шрифта
+  // $minSize - минимальный размер шрифта
+  // $minWidthPx - минимальная ширина viewport в пикселях
+  // $maxWidth - максимальная ширина viewport
+  // $minWidth - минимальная ширина viewport
+
+  font-size: calc(#{$minSizePercent} + (#{$maxSize} - #{$minSize}) * (100vw - #{$minWidthPx}) / (#{$maxWidth} - #{$minWidth}));
+}

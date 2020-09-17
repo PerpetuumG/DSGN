@@ -12,7 +12,7 @@
   background: url("/img/image1.png") 100% center no-repeat;
   background-size: 100%;
 
-  @media (min-resolution: 2ddpx), (min-width: 1500px) {
+  @media (min-resolution: 2dppx), (min-width: 1500px) {
     background-image: url("/img/image1-2x.png");
   }
 }
@@ -32,6 +32,10 @@
   line-height: 1;
   margin: 0;
   margin-top: 5px;
+
+  @media (min-width: 1500px) {  //18/16*100
+    @include dynamicText(112.5%, 36, 18, 1500px, 3000, 1500);
+  }
 }
 
 .header__socials {
@@ -55,6 +59,7 @@
     width: 100%;
     height: 100%;
     background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y="0" stroke="rgb(255,255,255)" stroke-width="1" /></svg>');
+    // прорисовка наклонной линии svg изменяющейся в зависимости от размера экрана
   }
 }
 
@@ -66,6 +71,10 @@
   position: absolute;
   left: 12.9%;
   bottom: 36.5%;
+
+  @media (min-width: 1500px) { //13/16*100
+    @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
+  }
 }
 
 .header__contacts {
@@ -76,6 +85,10 @@
   position: absolute;
   left: 29%;
   bottom: 20%;
+
+  @media (min-width: 1500px) { //13/16*100
+    @include dynamicText(81.25%, 26, 13, 1500px, 3000, 1500);
+  }
 }
 
 .header__tel, .header__mail {
