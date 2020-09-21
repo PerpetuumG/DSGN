@@ -49,7 +49,7 @@ $menuBg: #f8c255;
   transition-property: color;
 
   @media (min-width: 1500px) {
-    @include dynamicText(87,5%, 28, 14, 1500px, 3000, 1500); // (14/16)*100
+    @include dynamicText(87.5%, 28, 14, 1500px, 3000, 1500); // (14/16)*100
   }
 
   &:hover {
