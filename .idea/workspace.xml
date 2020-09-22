@@ -11,14 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbfa419c-a3b6-4b41-976c-32f01aa8255f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/blocks/projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -69,7 +67,8 @@
       <workItem from="1600411139655" duration="6549000" />
       <workItem from="1600425279787" duration="3605000" />
       <workItem from="1600511002832" duration="985000" />
-      <workItem from="1600680398619" duration="5180000" />
+      <workItem from="1600680398619" duration="6819000" />
+      <workItem from="1600770579811" duration="2799000" />
     </task>
     <servers />
   </component>
