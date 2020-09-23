@@ -13,6 +13,20 @@ $bgNine: #cecece;
   background-color: $thirty;
   grid-column: span 5;
   grid-row: span 2;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y="0" stroke="rgb(255,255,255)" stroke-width="1" /></svg>');
+    // прорисовка наклонной линии svg изменяющейся в зависимости от размера экрана
+  }
 
   .projects__title {
     font-size: 48px;
@@ -20,6 +34,15 @@ $bgNine: #cecece;
     text-transform: uppercase;
     line-height: 1;
     font-weight: normal;
+    margin: 12.9% 0 34.4% 46.2%;
+  }
+
+  .projects__links{
+    position: relative;
+    z-index: 1;
+    margin-top: 36.5%;  //      (170/465)*100
+    margin-left: calc(27.9% - 25px);      //      (130/465)*100
+    margin-bottom: 12.9%;    //      (60/465)*100
   }
 }
 
@@ -28,6 +51,17 @@ $bgNine: #cecece;
   background-size: cover;
   grid-column: span 6;
   grid-row: span 2;
+
+  .projects__info {
+    margin-left: 17.5%; // (100/570)*100
+    margin-top: 15.7%;       // 90/570
+  }
+
+  .projects__counter {
+    margin-left: 19.3%; // (110/570)*100
+    margin-top: 11.4%;  // 65/570
+    margin-bottom: 12.3%; //70/570
+  }
 }
 
 .projects__element--three {
@@ -35,13 +69,51 @@ $bgNine: #cecece;
   background-size: cover;
   grid-column: span 5;
   grid-row: span 1;
+
+  .projects__like {
+    margin-top: 5.8%;
+  }
+  .projects__description {
+    max-width: 39%; //    (165/465)*100
+  }
+
+  .projects__info {
+    margin-left: 8.6%; // (40/465)*100
+    margin-top: 7.5%;       // 35/465
+  }
+
+  .projects__counter {
+    margin-left: 8.6%;
+    margin-top: 4%;
+    margin-bottom: 4.5%;
+  }
 }
 
 .projects__element--four {
   background: url("/img/image4.png") center top no-repeat $bgFour;
-  background-size: cover;
+  background-size: 100%;
   grid-column: span 5;
   grid-row: span 2;
+  padding-top: 72%; // (335/465)*100
+  display: flex;
+
+  .projects__info {
+    margin-left: 12.9%; // (60/465)*100
+    margin-right: 4.3%;  // (20/465)
+    margin-bottom: 7.5%;       // 35/465
+  }
+
+  .projects__counter {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 3%;
+    margin-top: 32px;
+    margin-bottom: 3%;
+  }
+
+  .projects__like {
+    margin-top: 0;
+  }
 }
 
 .projects__element--five {
@@ -49,6 +121,44 @@ $bgNine: #cecece;
   background-size: cover;
   grid-column: span 3;
   grid-row: span 2;
+
+  .projects__like {
+    margin-top: 9.2%;
+  }
+
+  .projects__view {
+    color: $white;
+
+    &:hover {
+      span {
+      border-color: $white;
+      }
+    }
+  }
+
+  .projects__description, .projects__name {
+    color: $white;
+  }
+
+  .like__btn {
+    svg {
+    fill: $white;
+    }
+  }
+  .like__counts {
+    color: #fe7c7c;
+  }
+
+  .projects__info {
+    margin-left: 10%; // (30/300)*100
+    margin-top: 10%;       // 30/300
+    margin-bottom: 12.9%;
+  }
+
+  .projects__counter {
+    margin-left: 10%;
+    margin-bottom: 70%;
+  }
 }
 
 .projects__element--six {
@@ -56,6 +166,23 @@ $bgNine: #cecece;
   background-size: cover;
   grid-column: span 8;
   grid-row: span 2;
+  display: flex;
+
+  .projects__info {
+    margin-left: 48.1%; // (355/738)*100
+    margin-top: 12.1%;  // (90/738)
+    margin-bottom: 4%;
+  }
+
+  .projects__counter {
+    margin-top: 12.1%;  // (90/738)
+    margin-left: 4%;
+    margin-bottom: 4%;
+  }
+
+  .projects__like {
+    margin-top: 12.5%;
+  }
 }
 
 .projects__element--seven {
@@ -63,6 +190,21 @@ $bgNine: #cecece;
   background-size: 100%;
   grid-column: span 5;
   grid-row: span 1;
+
+  .projects__info {
+    margin-left: 52.6%; // (245/465)*100
+    margin-top: 10.7%;       // 50/465
+  }
+
+  .projects__counter {
+    margin-left: 52.6%;
+    margin-top: 5%;
+    margin-bottom: 5.3%;
+  }
+
+  .projects__like {
+    margin-top: 9.1%;
+  }
 }
 
 .projects__element--eight {
@@ -70,6 +212,27 @@ $bgNine: #cecece;
   background-size: 100%;
   grid-column: span 8;
   grid-row: span 1;
+  display: flex;
+  padding-top: 27.2%; // (200/735)*100
+
+  .projects__info {
+    margin-left: 20.4%; //150/735*100
+    margin-bottom: 2.7%;
+  }
+
+  .projects__counter {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-left: 6.1%;
+    margin-bottom: 2.7%;
+    flex-basis: 210px;
+    justify-content: space-between;
+  }
+
+  .projects__like {
+    margin-top: 0;
+  }
 }
 
 .projects__element--nine {
@@ -77,12 +240,56 @@ $bgNine: #cecece;
   background-size: cover;
   grid-column: span 3;
   grid-row: span 1;
+
+  .projects__info {
+    margin-left: 50%; // (150/300)*100
+    margin-top: 25%;       // 75/300
+    margin-bottom: 8.3%;
+  }
+
+  .projects__counter {
+    margin-left: 40%;
+    margin-bottom: 11.6%;
+  }
+
+  .projects__like {
+    margin-top: 14.7%;
+  }
 }
 
 .projects__element--ten {
   background-color: $thirty;
   grid-column: span 5;
   grid-row: span 1;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="65%" y="0" stroke="rgb(255,255,255)" stroke-width="1" /></svg>');
+    // прорисовка наклонной линии svg изменяющейся в зависимости от размера экрана
+  }
+
+  .projects__subtitle {
+    font-size: 14px;
+    color: $colorText;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 11.8% 0 0 21.5%;
+  }
+
+  .projects__links{
+    position: relative;
+    z-index: 1;
+    margin-left: calc(21.5% - 25px);
+    margin-bottom: 32.25%;    //      (150/465)*100
+  }
 }
 
 
@@ -108,6 +315,10 @@ $bgNine: #cecece;
     font-family: 'roboto_condensedbold', 'Arial', sans-serif;
     font-weight: normal;
   }
+}
+
+.projects__description--lowercase {
+  text-transform: initial;
 }
 
 .projects__view {
@@ -138,4 +349,5 @@ $bgNine: #cecece;
 .projects__like {
   max-width: 145px;
   text-align: center;
+  margin: 22.3% 0 0 0;
 }
