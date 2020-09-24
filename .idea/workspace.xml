@@ -14,8 +14,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/like.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/like.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/blocks/links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/links.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/projects.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,8 @@
       <workItem from="1600511002832" duration="985000" />
       <workItem from="1600680398619" duration="6819000" />
       <workItem from="1600770579811" duration="6709000" />
-      <workItem from="1600843296179" duration="13387000" />
+      <workItem from="1600843296179" duration="14124000" />
+      <workItem from="1600935014017" duration="4623000" />
     </task>
     <servers />
   </component>
