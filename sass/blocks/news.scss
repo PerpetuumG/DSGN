@@ -1,0 +1,49 @@
+$bgStudio: #ff9b6d;
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.news__left {
+  grid-column: span 5;
+}
+
+.news__right {
+  grid-column: span 11
+}
+
+.news__left {
+  background-color: lightgreen;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y="0" stroke="rgb(255,255,255)" stroke-width="1" /></svg>');
+    // прорисовка наклонной линии svg изменяющейся в зависимости от размера экрана
+  }
+}
+
+  .news__title {
+    font-size: 48px;
+    color: $white;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: normal;
+    margin: 62.3% 0 35.5% 46.2%;
+    //  290/465*100=62.3%
+    //  0
+    //  165/465*100=35.5%
+    //  215/465*100=46.2%
+
+    @media (min-width: 1500px) {  //18/16*100
+      @include dynamicText(300%, 96, 48, 1500px, 3000, 1500);
+    }
+  }

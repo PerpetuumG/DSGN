@@ -11,11 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbfa419c-a3b6-4b41-976c-32f01aa8255f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/blocks/news.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/blocks/persons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/persons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/blocks/studio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/blocks/studio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <workItem from="1601019067953" duration="29000" />
       <workItem from="1601270313182" duration="60000" />
       <workItem from="1601885244547" duration="7179000" />
-      <workItem from="1602061249785" duration="10550000" />
+      <workItem from="1602061249785" duration="12884000" />
     </task>
     <servers />
   </component>
